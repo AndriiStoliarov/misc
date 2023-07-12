@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ItGid.info - 30 вопросов собеседования</title>
+    <link rel="icon" href="https://itgid.info/img/favicon/favicon.ico" type="image/x-icon">
+    <link href="prettify.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>ItGid.info - 30 вопросов собеседования </h1>
+        <h3><b>Вопрос 1.</b> Какую из четырех строк необходимо дописать, чтобы получить желаемый результат?</h3>
+        <ol class="courses questions">
+            <li>A : 1</li>
+            <li>B : 2</li>
+            <li>C : 3</li>
+            <li>D : 4</li>
+        </ol>
+        <div>
+        <pre class="prettyprint linenums lang-js"><code>const meetups = [
+    { name: 'JavaScript', isActive: true, members: 100 },
+    { name: 'Angular', isActive: true, members: 900 },
+    { name: 'Node', isActive: false, members: 600 },
+    { name: 'React', isActive: true, members: 500 },
+]
+        
+const membersOnActiveMeetups = meetups => meetups
+        .filter(meetup => meetup.isActive)
+        // ?
+
+console.log(membersOnActiveMeetups(meetups));</code></pre>
+        </div>
+        <h3>Варианты ответа</h3>
+ <pre class="prettyprint linenums lang-js"><code>.reduce((meetup, sum ) => meetup.members + sum, {sum : 0 });// 1
+.reduce((sum, meetup ) => sum  + meetup.members, {sum : 0 }); // 2
+.reduce((meetup, sum) => meetup.members + sum); //2
+</code></pre>
+        <hr>
+        <div class="courses">
+            <ul>
+                <li><a href="https://itgid.info/course/interview-2022">30 вопросов собеседования JavaScript - бесплатный курс</a></li>
+                <li><a href="https://itgid.info/course/javascript-2">JavaScript 2.0</a></li>
+                <li><a href="https://itgid.info/course/html">HTML для JS разработчиков</a></li>
+                <li><a href="https://itgid.info/course/object-js">Объектно Ориентированный JavaScript</a></li>
+                <li><a href="https://itgid.info/course/reactjs">ReactJS</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Подключаем скрипт для подсветки кода start -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="prettify.js"></script>
+    <script src="pretty_function.js"></script>
+    <!-- Подключаем скрипт для подсветки кода end -->
+
+    <script src="unit_04.js"></script>
+</body>
+
+</html>
