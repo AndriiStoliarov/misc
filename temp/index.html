@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <ul>
+    <li class="open">
+      <div class="icon"></div>
+      <div class="text">Раздел 1
+        <br>В две строки</div>
+      <ul>
+        <li class="closed">
+          <div class="icon"></div>
+          <div class="text">Раздел 1.1 в одну строку</div>
+        </li>
+        <li class="leaf">
+          <div class="icon"></div>
+          <div class="text">Страница 1.2
+            <br> в две строки</div>
+        </li>
+      </ul>
+    </li>
+    <li class="closed">
+      <div class="icon"></div>
+      <div class="text">Раздел 2
+        <br>В две строки</div>
+    </li>
+  </ul>
+  <!-- Текст вверху без отступа от списка.
+<ul>
+  <li>Маша</li>
+  <li>Паша</li>
+  <li>Даша</li>
+  <li>Женя</li>
+  <li>Саша</li>
+  <li>Гоша</li>
+</ul>
+  Текст внизу без отступа от списка. -->
+  <!-- <input type="checkbox">
+  <input type="checkbox" checked>
+  <input type="text" id="message">
+
+  <h3 id="widget-title">Сообщения:</h3>
+  <ul id="messages">
+    <li id="message-1">Сообщение 1</li>
+    <li id="message-2">Сообщение 2</li>
+    <li id="message-3" data-action="delete">Сообщение 3</li>
+    <li id="message-4" data-action="edit do-not-delete">Сообщение 4</li>
+    <li id="message-5" data-action="edit delete">Сообщение 5</li>
+    <li><a href="#">...</a></li>
+  </ul>
+
+  <a href="http://site.com/list.zip">Ссылка на архив</a>
+  <a href="http://site.com/list.pdf">..И на PDF</a> -->
+  <!-- <h3>Балтославянские языки</h3>
+
+  <ol id="languages">
+    <li>Славянские языки
+      <ol>
+        <li>Славянские микроязыки</li>
+        <li>Праславянский язык</li>
+        <li id="e-slavic">Восточнославянские языки <code>#e-slavic</code></li>
+        <li>Западнославянские языки <code>#e-slavic ~ li</code></li>
+        <li>Южнославянские языки <code>#e-slavic ~ li</code></li>
+        <li> ... <code>#e-slavic ~ li</code></li>
+      </ol>
+    </li>
+    <li>Балтийские языки
+      <ol>
+        <li>Литовский язык</li>
+        <li id="latvian">Латышский язык <code>#latvian</code>
+          <ol>
+            <li>Латгальский язык <code>#latvian *</code></li>
+          </ol>
+        </li>
+        <li>Прусский язык <code>#latvian + li </code></li>
+        <li>... (следующий элемент уже не <code>#latvian + li</code>)</li>
+      </ol>
+    </li>
+  </ol> -->
+  <!-- <table>
+    <tr>
+      <td style="border:1px red solid">
+        <img style="vertical-align: top" src="images\winnie-mult.jpg">
+      </td>
+    </tr>
+  </table> -->
+  <!-- <div>Добро пожаловать</div>
+
+  <input type="password" id="input">
+
+  <div id="placeholder">Скажи пароль, друг</div>
+
+  <div>.. и заходи</div> -->
+  <!-- <div class="block">
+    <div class="spacer"></div>
+  </div> -->
+  <!-- <div>
+    <h2>Общие положения</h2>
+  
+    <p>Настоящие Правила дорожного движения устанавливают единый порядок дорожного движения на всей территории Российской Федерации. Другие нормативные акты, касающиеся дорожного движения, должны основываться на требованиях Правил и не противоречить им.</p>
+  </div>
+  
+  <div>
+    <h2>Общие обязанности водителей</h2>
+  
+    <p>Водитель механического транспортного средства обязан иметь при себе и по требованию сотрудников милиции передавать им для проверки:</p>
+    <ul>
+      <li>водительское удостоверение на право управления транспортным средством соответствующей категории;</li>
+      <li>...и так далее...</li>
+    </ul>
+  </div> -->
+  <!-- <p style="margin:20px; background:white">
+
+    <span style="margin:20px; background:orange">Горизонтальный 20px</span>
+    ← 40px →
+    <span style="margin:20px; background:orange">20px Отступ </span>
+
+  </p>
+  <p style="margin:15px; background:white">Вертикальный 20px</p> -->
+  <!-- <form>
+    <input>
+    <input>
+    <select>
+      <option>опции</option>
+    </select>
+  </form> -->
+  <!-- <div style="display: table;"> -->
+    <!-- <div class="arrow">«</div> -->
+  <!-- </div> -->
+
+  <!-- <p>Текст Текст Текст</p>
+
+  <button onclick="alert('Эта кнопка не должна работать')">Эта кнопка не работает</button>
+
+  <p>Текст Текст Текст</p>
+
+
+  <div id="box">
+    <div id="box-inner">
+    </div>
+
+    <form>
+      Добро пожаловать!
+      <table>
+        <tr>
+          <td>Логин</td>
+          <td>
+            <input>
+          </td>
+        </tr>
+        <tr>
+          <td>Пароль</td>
+          <td>
+            <input>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="submit" value="Войти">
+          </td>
+        </tr>
+      </table>
+
+    </form>
+
+  </div> -->
+
+  
+  <!-- <div id="field">
+    <img src="https://js.cx/clipart/ball.svg" id="ball"> . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  </div> -->
+  <!-- <div id="box"></div>
+
+  <button onclick="alert('Эта кнопка не должна работать')">Эта кнопка не работает</button>
+  <p>Текст Текст Текст</p>
+  <button onclick="alert('Эта кнопка не должна работать')">Эта кнопка не работает</button>
+  <p>Текст Текст Текст</p>
+  <button onclick="alert('Эта кнопка не должна работать')">Эта кнопка не работает</button>
+  <p>Текст Текст Текст</p>
+  <button onclick="alert('Эта кнопка не должна работать')">Эта кнопка не работает</button>
+  <p>Текст Текст Текст</p>
+  <button onclick="alert('Эта кнопка не должна работать')">Эта кнопка не работает</button>
+  <p>Текст Текст Текст</p>
+  <button onclick="alert('Эта кнопка не должна работать')">Эта кнопка не работает</button>
+  <p>Текст Текст Текст</p>
+  <button onclick="alert('Эта кнопка не должна работать')">Эта кнопка не работает</button> -->
+  <!-- <button style="float: right; margin-right: 10px; opacity: 0.8;">
+    Кнопка
+  </button>
+  1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9
+  1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 -->
+  <!-- <div style="background: #fee; width: 500px; position: relative">
+    Без позиционирования ("position: static").
+
+    <h2 style="background: #aef; margin: 0">Заголовок</h2>
+
+    <div>А тут - всякий разный текст... <br/>
+         ... В две строки!</div>
+  </div> -->
+  <!-- <div class="left">
+    Левая<br>Колонка
+  </div>
+  <div class="right">
+    Правая<br>Колонка<br>...
+  </div> -->
+  <!-- Текст Сверху
+
+  <div class="nav">
+    <img src="https://js.cx/clipart/arrow-left.jpg" class="left" width="40" height="40">
+    <img src="https://js.cx/clipart/arrow-right.jpg" class="right" width="40" height="40">
+    <ul class="pages">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+      <li>7</li>
+      <li>8</li>
+      <li>9</li>
+    </ul>
+  </div>
+  Текст Снизу -->
+  <!-- картинки для узлов
+  <img src="https://js.cx/sprite-tree/minus.gif" width="16" height="16">
+  <img src="https://js.cx/sprite-tree/plus.gif" width="16" height="16">
+  <img src="https://js.cx/sprite-tree/article.gif" width="16" height="16">
+
+  <ul>
+    <li class="open">
+      <div class="icon"></div>
+      <div class="text">Раздел 1
+        <br>(занимает две строки)</div>
+      <ul>
+        <li class="closed">
+          <div class="icon"></div>
+          <div class="text">Раздел 1.1</div>
+        </li>
+        <li class="leaf">
+          <div class="icon"></div>
+          <div class="text">Страница 1.2
+            <br>(занимает две строки)</div>
+        </li>
+      </ul>
+    </li>
+    <li class="closed">
+      <div class="icon"></div>
+      <div class="text">Раздел 2
+        <br>(занимает две строки)</div>
+    </li>
+  </ul> -->
+
+  <!-- <ul class="gallery">
+    <li>
+      <img src="https://js.cx/carousel/1.png" width="130" height="130">
+      <div>Картинка 1</div>
+    </li>
+
+    <li>
+      <img src="https://js.cx/carousel/2.png" width="130" height="130">
+      <div>Картинка 2</div>
+    </li>
+
+    <li>
+      <img src="https://js.cx/carousel/3.png" width="130" height="130">
+      <div>Картинка 3</div>
+    </li>
+
+    <li>
+      <img src="https://js.cx/carousel/4.png" width="130" height="130">
+      <div>Картинка 4</div>
+    </li>
+
+    <li>
+      <img src="https://js.cx/carousel/5.png" width="130" height="130">
+      <div>Картинка 5</div>
+    </li>
+
+    <li>
+      <img src="https://js.cx/carousel/6.png" width="130" height="130">
+      <div>Картинка 6</div>
+    </li>
+
+    <li>
+      <img src="https://js.cx/carousel/7.png" width="130" height="130">
+      <div>Картинка 7</div>
+    </li>
+
+    <li>
+      <img src="https://js.cx/carousel/8.png" width="130" height="130">
+      <div>Картинка 8</div>
+    </li>
+
+    <li>
+      <img src="https://js.cx/carousel/9.png" width="130" height="130">
+      <div>Картинка 9</div>
+    </li>
+
+  </ul> -->
+<script src="script.js"></script>
+</body>
+</html>
