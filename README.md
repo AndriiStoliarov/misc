@@ -1,7 +1,7 @@
-# JS
-Different temporary projects.
+# misc
 
 ## BEM
+
 BEM methodology, coding style, project structure, PageSpeed Insights, advices from BrainsCloud.
 
 PageSpeed Insights [pagespeed.web.dev](https://pagespeed.web.dev/).
@@ -33,7 +33,7 @@ PageSpeed Insights [pagespeed.web.dev](https://pagespeed.web.dev/).
   /* визуальное оформление */
   background: linear-gradient(to bottom, #f5576c, #f093fb);
   border: 2px solid #9c4a4a;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, .15);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
 
   /* позиционирование */
@@ -43,30 +43,26 @@ PageSpeed Insights [pagespeed.web.dev](https://pagespeed.web.dev/).
   z-index: 1;
 
   /* все остальное */
-  transition: background .1s linear, color .1s linear;
+  transition:
+    background 0.1s linear,
+    color 0.1s linear;
   transform: translate3d(0, -100px, 0);
   animation: circleRadius 12s alternate infinite;
 }
 ```
+
 ![needToRemember](BEM/data/needToRemember.png)
 
 ## systemFonts
+
 Animations and system fonts from BrainsCloud.
 
 ![fonts](systemFonts/data/systemFontsExample.png)
 
 ```css
 body {
-    font-family: 
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Helvetica,
-        Arial,
-        sans-serif,
-        "Apple Color Emoji",
-        "Segoe UI Emoji",
-        "Segoe UI Symbol";
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 ```
