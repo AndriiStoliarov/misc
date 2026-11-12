@@ -10,6 +10,8 @@ PageSpeed Insights [pagespeed.web.dev](https://pagespeed.web.dev/).
 
 ![checklist](BEM/data/checklist.jpg)
 
+![checklist](BEM/data/checklist.pdf)
+
 ```css
 /* пример оформления CSS */
 .someclass {
