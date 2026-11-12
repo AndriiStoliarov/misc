@@ -2,15 +2,11 @@
 
 ## BEM
 
-BEM methodology, coding style, project structure, PageSpeed Insights, advices from BrainsCloud.
-
 PageSpeed Insights [pagespeed.web.dev](https://pagespeed.web.dev/).
-
-![checklist](BEM/data/checklist.png)
 
 ![checklist](BEM/data/checklist.jpg)
 
-![checklist](BEM/data/checklist.pdf)
+[checklist](BEM/data/checklist.pdf)
 
 ```css
 /* пример оформления CSS */
@@ -53,9 +49,16 @@ PageSpeed Insights [pagespeed.web.dev](https://pagespeed.web.dev/).
 
 ![needToRemember](BEM/data/needToRemember.png)
 
-## systemFonts
+> [!TIP]
+>
+> **О чем стоит не забывать**
+>
+> - Думай об адаптивности блока сразу
+> - Думай о взаимодействии пользователя с сайтом
+> - Думай о роли каждого блока
+> - Избегай фиксированных размеров, там где это не нужно
 
-Animations and system fonts from BrainsCloud.
+## systemFonts
 
 ```css
 body {
