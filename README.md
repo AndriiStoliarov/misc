@@ -6,11 +6,9 @@ BEM methodology, coding style, project structure, PageSpeed Insights, advices fr
 
 PageSpeed Insights [pagespeed.web.dev](https://pagespeed.web.dev/).
 
-[Checklist](BEM/data/checklist.pdf).
-
 ![checklist](BEM/data/checklist.png)
 
-![propertyBlocks](BEM/data/propertyBlocks.png)
+![checklist](BEM/data/checklist.jpg)
 
 ```css
 /* пример оформления CSS */
@@ -56,8 +54,6 @@ PageSpeed Insights [pagespeed.web.dev](https://pagespeed.web.dev/).
 ## systemFonts
 
 Animations and system fonts from BrainsCloud.
-
-![fonts](systemFonts/data/systemFontsExample.png)
 
 ```css
 body {
